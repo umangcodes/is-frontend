@@ -1,6 +1,11 @@
+import Copyright from "./Copyright"
+
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+      Footer
+      <Copyright />
+    </div>
   )
 }
 
