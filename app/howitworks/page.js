@@ -10,7 +10,7 @@ function page() {
 
               ]
   return (
-    <div className={styles.page + " flex gap-5 justify-around"}>
+    <div className={styles.page + " flex flex-col gap-5 justify-around"}>
       {data.map((details) => {return <Card key={details.id} cardDetails={details} />})}
     </div>
   )
